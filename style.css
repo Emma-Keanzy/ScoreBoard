@@ -1,0 +1,38 @@
+/* Styles for Basketball Scoreboard */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #090127;
+    color: #fff;
+}
+
+#home-points, #guest-points {
+    font-size: 64px;
+    color: white
+    font-weight: bold;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#guest-score: button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+/* Add additional styles here */
+#home-score: home-points {
+    color : white;
+}
